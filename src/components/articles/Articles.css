@@ -1,0 +1,171 @@
+#articles{
+    color: darkred;
+    text-align: center;
+    font-family: 'Roboto'; 
+    margin-top: 20px;
+}
+
+.article{
+    font-family: 'Roboto';
+    text-align: center;
+    text-decoration: none;
+    margin-top: 20px;
+    color: darkred;
+}
+.article_head{
+    margin-left: 37%;
+    margin-top: 5%;
+    padding-top: 20px;
+    display: block;
+    width: 300px;
+    padding: 8px;
+    border-radius: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    border: 2px solid black;
+    margin-bottom: 16px;
+    background-color: black;
+    color: white;
+}
+
+.like{
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    width: 70px;
+    height: 50px;
+    position: relative;
+    top: 40px;
+    left: 34%;
+}
+.desc{
+    font-family: 'Roboto';
+    text-align: 'center';
+    position: 'relative';
+    top: '50px';
+}
+
+.votes{
+    text-align: center;
+    margin-top: 5px;
+    background-color: coral;
+    width: 20%;
+    margin-left: 40%;
+    border-radius: 8px;
+}
+
+#comment{
+    margin-left: 100px;
+    color: darkcyan;
+    position: relative;
+    top: 70px;
+    font-size: 20px;
+
+}
+
+.comments-head{
+    margin-left: 100px;
+    margin-top: 50px;
+    text-decoration: underline;
+     
+}
+.comments{
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.add-comment{
+    margin-left: 100px;
+    margin-top: 50px;
+    /* position: absolute;
+    top: 150px; */
+    width: 100px;
+    height: 100px;
+}
+
+.add-comment h3{
+    width: 200px;
+}
+
+.add-comment input,textarea{
+   
+    display: block;
+    width: 300px;
+    padding: 8px;
+    border-radius: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    border: 2px solid black;
+    margin-bottom: 16px;
+}
+
+.add-comment button {
+    display: block;
+    width: 320px;
+    height: 50px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(167, 57, 57);
+    color: white;
+  }
+
+/* posts page styling */
+  .blogPost{
+    margin: 10px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 60vw;
+    padding: 20px;
+    background-color: rgb(195, 207, 138);
+}
+
+.postTitle{
+    color: brown;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:xx-large;
+}
+
+.postAuthor{
+    color: rgb(red, rgb(14, 122, 14), blue);
+    text-align: center;
+    font-size: medium;
+    line-height: 1.5em;
+    margin-left: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.postDescription{
+    color: black;
+    padding: 20px;
+    text-align: justify;
+    line-height: 1.8em;
+    overflow-x: auto;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.load{
+    position:fixed;
+    height: 100%;
+    width: 100%;
+    background-color:lightblue;
+}
+
+.loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 30%;
+    border-top: 16px solid brown;
+    border-bottom: 16px solid brown;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+    display: block;
+    margin: 30vh auto;
+    padding: 3px;
+}
